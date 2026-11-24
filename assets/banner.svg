@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="article-harness — Deterministic HN AI Essay to X Thread Harness">
+  <defs>
+    <linearGradient id="bg-ah" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131a"/>
+      <stop offset="55%" stop-color="#18181f"/>
+      <stop offset="100%" stop-color="#231712"/>
+    </linearGradient>
+    <linearGradient id="accent-ah" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="glow-ah" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.0"/>
+    </linearGradient>
+    <pattern id="grid-ah" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#a8a29e" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="1184" height="304" rx="22" fill="url(#bg-ah)" stroke="#292524" stroke-width="2"/>
+  <rect x="8" y="8" width="1184" height="304" rx="22" fill="url(#grid-ah)"/>
+  <ellipse cx="210" cy="160" rx="190" ry="125" fill="url(#glow-ah)"/>
+
+  <!-- Emblem: Essay -> Gate Shield -> Thread -->
+  <g transform="translate(92, 68)">
+    <rect x="0" y="0" width="184" height="184" rx="28" fill="#1c1917" stroke="#44403c" stroke-width="2"/>
+    <!-- Funnel / Pipeline nodes -->
+    <rect x="28" y="34" width="46" height="58" rx="8" fill="#292524" stroke="#fb923c" stroke-width="2.5"/>
+    <line x1="38" y1="50" x2="64" y2="50" stroke="#fdba74" stroke-width="3" stroke-linecap="round"/>
+    <line x1="38" y1="62" x2="60" y2="62" stroke="#a8a29e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="38" y1="74" x2="56" y2="74" stroke="#a8a29e" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Gate shield in center -->
+    <path d="M 106 42 L 146 56 L 146 88 C 146 108 128 120 106 128 C 84 120 66 108 66 88 L 66 56 Z" fill="#11131a" stroke="url(#accent-ah)" stroke-width="3"/>
+    <path d="M 92 84 L 102 94 L 122 72" fill="none" stroke="#fbbf24" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Output thread bar -->
+    <rect x="34" y="140" width="116" height="22" rx="11" fill="#11131a" stroke="#f59e0b" stroke-opacity="0.55" stroke-width="1.5"/>
+    <text x="92" y="155" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600" fill="#fcd34d">4 GATES PASS</text>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(320, 114)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5" fill="#fafaf9">article-harness</text>
+    <text x="2" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#a8a29e">Deterministic workflow harness turning HN AI essays into grounded X threads</text>
+
+    <!-- Feature pills -->
+    <g transform="translate(0, 74)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="600">
+      <rect x="0" y="0" width="154" height="32" rx="16" fill="#291d12" stroke="#f97316" stroke-opacity="0.5"/>
+      <text x="77" y="21" text-anchor="middle" fill="#fdba74">Stdlib Only</text>
+
+      <rect x="168" y="0" width="214" height="32" rx="16" fill="#262012" stroke="#f59e0b" stroke-opacity="0.5"/>
+      <text x="275" y="21" text-anchor="middle" fill="#fcd34d">Deterministic Gates</text>
+
+      <rect x="396" y="0" width="194" height="32" rx="16" fill="#1f1d24" stroke="#78716c" stroke-opacity="0.5"/>
+      <text x="493" y="21" text-anchor="middle" fill="#d6d3d1">Deduped Ledger</text>
+    </g>
+  </g>
+
+  <!-- Right stage badges -->
+  <g transform="translate(1038, 72)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+    <text x="0" y="0" fill="#78716c">STAGE GATES</text>
+    <rect x="0" y="14" width="106" height="24" rx="6" fill="#292524" stroke="#fb923c" stroke-opacity="0.5"/>
+    <text x="12" y="30" fill="#fdba74">01 select</text>
+    <rect x="0" y="46" width="106" height="24" rx="6" fill="#292524" stroke="#fb923c" stroke-opacity="0.5"/>
+    <text x="12" y="62" fill="#fdba74">02 source</text>
+    <rect x="0" y="78" width="106" height="24" rx="6" fill="#292524" stroke="#fb923c" stroke-opacity="0.5"/>
+    <text x="12" y="94" fill="#fdba74">03 understand</text>
+    <rect x="0" y="110" width="106" height="24" rx="6" fill="#292524" stroke="#f59e0b" stroke-opacity="0.7"/>
+    <text x="12" y="126" fill="#fcd34d">04 posts</text>
+  </g>
+</svg>
