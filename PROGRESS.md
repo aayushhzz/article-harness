@@ -1,0 +1,17 @@
+# Progress
+- 2026-11-24 21:40 [2026-11-24] selected top article
+- 2026-11-24 21:40 [2026-11-24] downloaded and extracted article text
+- 2026-11-24 21:40 [2026-11-24] wrote understanding.md and posts.json draft
+- 2026-11-24 21:41 [2026-11-24] review round 1: pass with fixes; applied fixes to posts 1, 2, follow-up
+- 2026-11-24 21:41 [2026-11-24] review round 2: fail; applied fixes to posts 1, 2, follow-up
+- 2026-11-24 21:41 [2026-11-24] review round 3: fail (hook, name missing, repetition); applied fixes
+- 2026-11-24 21:42 [2026-11-24] revised post 1 hook per user choice; awaiting approval to post
+- 2026-11-24 21:43 [2026-11-24] rejected Ladybird: promotional and off-topic. Skill updated to AI/agentic engineering topic filter with promo exclusion.
+- 2026-11-24 21:50 [2026-11-24-b] selected and extracted essay
+- 2026-11-24 21:50 [2026-11-24-b] wrote understanding.md and posts.json draft
+- 2026-11-24 21:50 [2026-11-24-b] review round 1: pass but clarity and engagement 7; applied fixes
+- 2026-11-24 21:51 [2026-11-24-b] review round 2: fail (accuracy 7, hook 7, engagement 7); applied fixes
+- 2026-11-24 21:51 [2026-11-24-b] review round 3: pass, engagement 7; applied fixes
+- 2026-11-24 22:09 [2026-11-24-b] removed author name from posts per user; awaiting approval to post
+- 2026-11-24 22:12 [2026-11-24-b] posted 6-post thread to X; thread1 id 2125268566748578034; follow-up held for user confirmation
+- 2026-11-24 22:28 [2026-11-24-b] posted follow-up reply; id 2125272863238406323

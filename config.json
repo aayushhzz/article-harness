@@ -1,0 +1,84 @@
+{
+  "hn": {
+    "top_limit": 60,
+    "min_score": 50,
+    "topic_keywords": [
+      "ai",
+      "llm",
+      "agent",
+      "agents",
+      "agentic",
+      "claude",
+      "openai",
+      "anthropic",
+      "gemini",
+      "gpt",
+      "coding",
+      "harness",
+      "model",
+      "models",
+      "mcp",
+      "eval",
+      "evals",
+      "prompt",
+      "inference",
+      "transformer",
+      "reasoning"
+    ],
+    "exclude_keywords": [
+      "show hn: hiring",
+      "is hiring",
+      "series a",
+      "series b",
+      "raises $",
+      "announcing our",
+      "we're launching",
+      "now in alpha",
+      "now in beta"
+    ]
+  },
+  "source": {
+    "min_words": 200,
+    "max_words": 25000,
+    "timeout_seconds": 15
+  },
+  "understanding": {
+    "required_sections": [
+      "Problem",
+      "Central point",
+      "Evidence",
+      "Limits and open questions",
+      "Angle"
+    ]
+  },
+  "x": {
+    "max_chars": 280,
+    "url_weight": 23,
+    "min_thread": 3,
+    "max_thread": 8,
+    "min_followups": 1,
+    "max_followups": 2
+  },
+  "banned_phrases": [
+    "game-changer",
+    "game changer",
+    "mind-blown",
+    "mind blown",
+    "revolutionize",
+    "revolutionary",
+    "delve",
+    "unlock the power",
+    "let that sink in",
+    "excited to share",
+    "here's why",
+    "here's the thing",
+    "must-read",
+    "you won't believe",
+    "the future is here",
+    "buckle up",
+    "🧵",
+    "🚀",
+    "🔥"
+  ],
+  "retry_cap": 3
+}

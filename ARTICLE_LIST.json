@@ -1,0 +1,22 @@
+[
+  {
+    "id": "50614249",
+    "title": "Ladybird is now in alpha",
+    "url": "https://ladybird.org/posts/alpha/",
+    "day": "2026-11-24",
+    "status": "rejected",
+    "reason": "promotional product announcement, not AI or agentic engineering"
+  },
+  {
+    "id": "50627340",
+    "title": "LLM agents work for their parent companies, not for you",
+    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+    "day": "2026-11-24-b",
+    "status": "posted",
+    "x_ids": {
+      "thread1": "2125268566748578034",
+      "followup1": "2125272863238406323"
+    },
+    "x_handle": "aahyouoos"
+  }
+]
